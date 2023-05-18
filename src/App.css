@@ -1,0 +1,162 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.bussinessCard {
+  background: #1A1B21;
+  border-radius: 10px;
+  max-width: 350px;
+}
+
+.bussinessCard > * {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.bussinessCard header {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+header * {
+  margin: 0px;
+}
+
+.card--info {
+  text-align: left;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.card--info > * {
+  margin: 0px
+}
+
+.card--info p {
+  font-size: .75em;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-bottom: 18px;
+  color: #DCDCDC;
+}
+
+.card--info h3 {
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-size: 1em;
+  padding-bottom: 6px;
+  margin: 0;
+  color: whitesmoke;
+}
+
+footer {
+  background-color: #161619;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  min-height: 64px;
+}
+
+.profile--image {
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.job--title {
+  color: #F3BF99;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.name--title {
+  padding-top: 10px;
+}
+
+.email--title {
+  font-size: .75rem;
+}
+
+.header--contacts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.contacts--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 115px;
+  min-height: 34px;
+  color: black;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.linkedin {
+  font-size: 1rem;
+  color: white;
+  background-color: #5093E2;
+}
+
+.contacts--button img {
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+}
+
+footer a {
+  line-height: 0;
+}
