@@ -7,10 +7,10 @@ function Footer() {
   return (
     <footer>
       <ul>
-        <a href=""><img src={twitterIcon} /></a>
+        <a href="https://twitter.com/TheKlemmerCode"><img src={twitterIcon} /></a>
         <a href=""><img src={facebookIcon} /></a>
         <a href=""><img src={instagramIcon} /></a>
-        <a href=""><img src={gitHubIcon} /></a>
+        <a href="https://github.com/TheKlemmerCode"><img src={gitHubIcon} /></a>
       </ul>
     </footer>
   )
