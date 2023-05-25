@@ -10,14 +10,18 @@ function Header() {
       <h4 className="job--title">Software Engineer</h4>
       <span className="email--title">theKlemmerCode@outlook.com</span>
       <div className="header--contacts">
-        <div className="contacts--button">
-          <img src={mail}></img>
-          <span>Email</span>
-        </div>
-        <div className="contacts--button linkedin">
-          <img src={linkedIn}></img>
-          <span>LinkedIn</span>
-        </div>
+        <a href = "mailto: theklemmercode@outlook.com">
+          <div className="contacts--button">
+            <img src={mail}></img>
+            <span>Email</span>
+          </div>
+        </a>
+        <a href = "https://www.linkedin.com/in/matthew-klemmer/">
+          <div className="contacts--button linkedin">
+            <img src={linkedIn}></img>
+            <span>LinkedIn</span>
+          </div>
+        </a>
       </div>
     </header>
   )
